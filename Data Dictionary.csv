@@ -1,0 +1,18 @@
+Variable,Variable name,Measurement Unit,Allowed values,Description
+Year,Year,yyyy,1973-2024,The calendar year of the data point
+Month,Month,Numeric,0-12,The month number (1-12) of the data point
+Sector,Sector,Text,string of words,"The energy consumption sector (Commercial, Electric Power, Industrial, Residential, or Transportation)"
+Hydroelectric Power Consumption,Hydroelectric Power,Numeric,0-300,"Hydroelectric power consumption in the given sector and month, in trillion BTUs"
+Geothermal Energy Consumption,Geothermal Energy,Numeric,0-300,"Geothermal energy consumption in the given sector and month, in trillion BTUs"
+Solar Energy Consumption,Solar Energy,Numeric,0-300,"Solar energy consumption in the given sector and month, in trillion BTUs"
+Wind Energy Consumption,Wind Energy,Numeric,0-300,"Wind energy consumption in the given sector and month, in trillion BTUs"
+Wood Energy Consumption,Wood Energy,Numeric,0-300,"Wood energy consumption in the given sector and month, in trillion BTUs"
+Waste Energy Consumption,Waste Energy,Numeric,0-301,"Waste energy consumption in the given sector and month, in trillion BTUs"
+"Fuel Ethanol, Excluding Denaturant Consumption","Fuel Ethanol, Excluding Denaturant",Numeric,0-302,"Fuel ethanol (excluding denaturant) consumption in the given sector and month, in trillion BTUs"
+Biomass Losses and Co-products Consumption,Biomass Losses and Co-products,Numeric,0-303,"Biomass losses and co-products in the given sector and month, in trillion BTUs"
+Biomass Energy Consumption,Biomass Energy,Numeric,0-304,"Total biomass energy consumption (sum of wood, waste, ethanol, and losses/co-products) in the given sector and month, in trillion BTUs"
+Total Renewable Energy Consumption,Total Renewable Energy,Numeric,0-305,"Total renewable energy consumption (sum of hydroelectric, geothermal, solar, wind, and biomass) in the given sector and month, in trillion BTUs"
+Renewable Diesel Fuels Consumption,Renewable Diesel Fuel,Numeric,0-306,"Renewable diesel fuel consumption in the given sector and month, in trillion BTUs"
+Other Biofuels Consumption,Other Biofuels,Numeric,0-307,"Other biofuels consumption in the given sector and month, in trillion BTUs"
+Conventional Hydroelectric Power Consumption,Conventional Hydroelectric Power,Numeric,0-308,"Conventional hydroelectric power consumption in the given sector and month, in trillion BTUs"
+Biodiesel Consumption,Biodiesel,Numeric,0-309,"Biodiesel consumption in the given sector and month, in trillion BTUs"
